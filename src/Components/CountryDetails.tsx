@@ -33,7 +33,7 @@ const CountryDetails: React.FC<Props> = ({ country }) => {
             <img src={country.flag} alt={country.name} className="img-fluid smaller-flag" />
         </div>
     );
-}
+};
 
 export default CountryDetails;
 
